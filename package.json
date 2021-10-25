@@ -1,0 +1,22 @@
+{
+  "name": "hyd-vue3-infinite-scroller",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "main": "index",
+  "devDependencies": {
+    "@types/node": "^15.14.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "typescript": "^4.3.5",
+    "vite": "^1.0.0-rc.13",
+    "@vue/compiler-sfc": "^3.0.4"
+  }
+}
