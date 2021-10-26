@@ -21,7 +21,7 @@ const handleEnterObserver = (
   entris.forEach((entiry) => {
     const { intersectionRatio, isIntersecting } = entiry;
     if (isIntersecting) {
-      if (intersectionRatio > threshold) {
+      if (intersectionRatio >= threshold) {
         emit('edgeDetacted', props.detactorId)
       }
     }
