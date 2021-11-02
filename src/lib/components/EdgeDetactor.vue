@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Detactors } from 'src/interface';
+import { Detactors } from '../../interface';
 import {
   defineProps, defineEmits,
   onMounted, onBeforeUnmount,
